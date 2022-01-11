@@ -10,8 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            How_to_get_month_name_using_month_number obj1 = new How_to_get_month_name_using_month_number();
-            obj1.getMonthName();
+
+            How_to_get_month_number_using_month_name obj = new How_to_get_month_number_using_month_name();
+            obj.getMonthNumber();
+
+            //How_to_get_month_name_using_month_number obj1 = new How_to_get_month_name_using_month_number();
+            //obj1.getMonthName();
 
             Console.ReadLine();
         }
